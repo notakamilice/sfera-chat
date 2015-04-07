@@ -13,7 +13,7 @@
 #include <signal.h>
 
 #define MAX_MSG_LENGTH 1024
-
+using namespace std;
 
 int set_nonblock(int fd)
 {
